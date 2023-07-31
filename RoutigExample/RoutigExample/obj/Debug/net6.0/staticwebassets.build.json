@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "KFrHs1FcJWx5rsnWxO0rk93x8UtP5Limwi4udlNohk0=",
+  "Source": "RoutigExample",
+  "BasePath": "_content/RoutigExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RoutigExample\\wwwroot",
+      "Source": "RoutigExample",
+      "ContentRoot": "C:\\Users\\deepe\\OneDrive\\Documents\\GitHub\\LearningASPNetCore\\RoutigExample\\RoutigExample\\wwwroot\\",
+      "BasePath": "_content/RoutigExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\deepe\\OneDrive\\Documents\\GitHub\\LearningASPNetCore\\RoutigExample\\RoutigExample\\wwwroot\\demo.txt",
+      "SourceId": "RoutigExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\deepe\\OneDrive\\Documents\\GitHub\\LearningASPNetCore\\RoutigExample\\RoutigExample\\wwwroot\\",
+      "BasePath": "_content/RoutigExample",
+      "RelativePath": "demo.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\demo.txt"
+    }
+  ]
+}
