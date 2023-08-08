@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
+using ModelBindingValidationExample.CustomModelBinders;
 using ModelBindingValidationExample.Models;
 
 namespace ModelBindingValidationExample.Controllers
@@ -13,8 +15,7 @@ namespace ModelBindingValidationExample.Controllers
         }
 
         [Route("bookstore/{bookid}")]
-        public IActionResult BookStore(int? bookid, [FromQuery] bool? isloggedin, Books book
-            , [FromHeader(Name = "User-Agent")] string userAgent)
+        public IActionResult BookStore(int? bookid, [FromQuery] bool? isloggedin, Books book)
         {
             if (bookid.HasValue == false)
             { 
@@ -31,7 +32,7 @@ namespace ModelBindingValidationExample.Controllers
                 return BadRequest("IsLoggedin can't be null or empty.");
             }
 
-            return Ok($"Successful it is ... {bookid} Book: {book} ollo has logged in {isloggedin}, {userAgent}");
+            return Ok($"Successful it is ... {bookid} Book: {book} ollo has logged in {isloggedin}, {book.Comments}");
         }
     }
 }

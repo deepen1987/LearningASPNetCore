@@ -8,5 +8,6 @@ namespace ModelBindingValidationExample.Models
         public int BookID { get; set; }
         public string? Author { get; set; }
         public List<string?> Tags { get; set; } = new List<string?>();
+        public string? Comments { get; set; }
     }
 }
