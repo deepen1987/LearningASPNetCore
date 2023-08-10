@@ -1,14 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StockApp.Models;
+using StockApp.ServiceContracts;
 using StockApp.Services;
 
 namespace StockApp.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly FinnhubService _finnhubService;
+        private readonly IFinnhubService _finnhubService;
 
-        public HomeController(FinnhubService finnhubService)
+        public HomeController(IFinnhubService finnhubService)
         {
             _finnhubService = finnhubService;
         }
