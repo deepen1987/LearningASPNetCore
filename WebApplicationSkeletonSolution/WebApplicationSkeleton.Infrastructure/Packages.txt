@@ -1,4 +1,0 @@
-﻿1. If we need to use EFC
-	EntityFrameworkCore
-	EntityFrameworkCore.SqlServer
-2. Using Dapper

@@ -1,4 +1,0 @@
-﻿Microsoft.Extensions.Options.DataAnnotations
-Serilog
-Serilog.Extensions.Hosting
-SerilogTimings
