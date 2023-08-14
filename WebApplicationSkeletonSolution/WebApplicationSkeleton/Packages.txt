@@ -1,0 +1,10 @@
+﻿1. If we need to use EFC
+	EntityFrameworkCore
+	EntityFrameworkCore.SqlServer
+	EntityFrameworkCore.Tools
+	Serilog.Sinks.MSSqlerver
+	Serilog.Sinks.Seq
+2. Using Dapper
+3. Serilog
+4. Serilog.AspNetCre
+

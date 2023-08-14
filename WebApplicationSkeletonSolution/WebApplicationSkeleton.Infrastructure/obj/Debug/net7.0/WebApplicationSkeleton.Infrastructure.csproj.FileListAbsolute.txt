@@ -1,0 +1,15 @@
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\bin\Debug\net7.0\WebApplicationSkeleton.Infrastructure.deps.json
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\bin\Debug\net7.0\WebApplicationSkeleton.Infrastructure.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\bin\Debug\net7.0\WebApplicationSkeleton.Infrastructure.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\bin\Debug\net7.0\WebApplicationSkeleton.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\bin\Debug\net7.0\WebApplicationSkeleton.Core.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\obj\Debug\net7.0\WebApplicationSkeleton.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\obj\Debug\net7.0\WebApplicationSkeleton.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\obj\Debug\net7.0\WebApplicationSkeleton.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\obj\Debug\net7.0\WebApplicationSkeleton.Infrastructure.AssemblyInfo.cs
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\obj\Debug\net7.0\WebApplicationSkeleton.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\obj\Debug\net7.0\WebApplicationSkeleton.Infrastructure.csproj.CopyComplete
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\obj\Debug\net7.0\WebApplicationSkeleton.Infrastructure.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\obj\Debug\net7.0\refint\WebApplicationSkeleton.Infrastructure.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\obj\Debug\net7.0\WebApplicationSkeleton.Infrastructure.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSkeletonSolution\WebApplicationSkeleton.Infrastructure\obj\Debug\net7.0\ref\WebApplicationSkeleton.Infrastructure.dll

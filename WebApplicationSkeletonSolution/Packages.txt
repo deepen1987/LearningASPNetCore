@@ -1,0 +1,5 @@
+FluentAssertions
+AutoFixture
+Moq
+AspNetCore.Mvc.Testing -- Integraton Test
+EntityFrameworkCore.InMemory -- Integration Test
