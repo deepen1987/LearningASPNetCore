@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="ConfigureExtensionService\" />
     <Folder Include="DbContext\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
