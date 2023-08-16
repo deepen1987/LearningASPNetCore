@@ -1,0 +1,6 @@
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSolution\WebApplication.WebAPI\obj\Debug\net7.0\WebApplication.WebAPI.csproj.AssemblyReference.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSolution\WebApplication.WebAPI\obj\Debug\net7.0\WebApplication.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSolution\WebApplication.WebAPI\obj\Debug\net7.0\WebApplication.WebAPI.AssemblyInfoInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSolution\WebApplication.WebAPI\obj\Debug\net7.0\WebApplication.WebAPI.AssemblyInfo.cs
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSolution\WebApplication.WebAPI\obj\Debug\net7.0\WebApplication.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\WebApplicationSolution\WebApplication.WebAPI\obj\Debug\net7.0\WebApplication.WebAPI.MvcApplicationPartsAssemblyInfo.cache

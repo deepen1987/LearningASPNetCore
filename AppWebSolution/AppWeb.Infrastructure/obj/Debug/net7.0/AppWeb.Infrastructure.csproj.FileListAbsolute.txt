@@ -1,0 +1,15 @@
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\obj\Debug\net7.0\AppWeb.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\obj\Debug\net7.0\AppWeb.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\obj\Debug\net7.0\AppWeb.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\obj\Debug\net7.0\AppWeb.Infrastructure.AssemblyInfo.cs
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\obj\Debug\net7.0\AppWeb.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\bin\Debug\net7.0\AppWeb.Infrastructure.deps.json
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\bin\Debug\net7.0\AppWeb.Infrastructure.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\bin\Debug\net7.0\AppWeb.Infrastructure.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\bin\Debug\net7.0\AppWeb.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\bin\Debug\net7.0\AppWeb.Core.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\obj\Debug\net7.0\AppWeb.Infrastructure.csproj.CopyComplete
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\obj\Debug\net7.0\AppWeb.Infrastructure.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\obj\Debug\net7.0\refint\AppWeb.Infrastructure.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\obj\Debug\net7.0\AppWeb.Infrastructure.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Infrastructure\obj\Debug\net7.0\ref\AppWeb.Infrastructure.dll

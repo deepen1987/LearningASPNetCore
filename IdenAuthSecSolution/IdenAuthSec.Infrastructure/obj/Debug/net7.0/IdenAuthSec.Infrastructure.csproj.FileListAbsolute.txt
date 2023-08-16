@@ -1,0 +1,15 @@
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\bin\Debug\net7.0\IdenAuthSec.Infrastructure.deps.json
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\bin\Debug\net7.0\IdenAuthSec.Infrastructure.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\bin\Debug\net7.0\IdenAuthSec.Infrastructure.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\bin\Debug\net7.0\IdenAuthSec.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\bin\Debug\net7.0\IdenAuthSec.Core.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\obj\Debug\net7.0\IdenAuthSec.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\obj\Debug\net7.0\IdenAuthSec.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\obj\Debug\net7.0\IdenAuthSec.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\obj\Debug\net7.0\IdenAuthSec.Infrastructure.AssemblyInfo.cs
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\obj\Debug\net7.0\IdenAuthSec.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\obj\Debug\net7.0\IdenAuthSec.Infrastructure.csproj.CopyComplete
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\obj\Debug\net7.0\IdenAuthSec.Infrastructure.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\obj\Debug\net7.0\refint\IdenAuthSec.Infrastructure.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\obj\Debug\net7.0\IdenAuthSec.Infrastructure.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Infrastructure\obj\Debug\net7.0\ref\IdenAuthSec.Infrastructure.dll

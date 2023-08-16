@@ -1,0 +1,12 @@
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\bin\Debug\net7.0\IdenAuthSec.Core.deps.json
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\bin\Debug\net7.0\IdenAuthSec.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\bin\Debug\net7.0\IdenAuthSec.Core.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\obj\Debug\net7.0\IdenAuthSec.Core.csproj.AssemblyReference.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\obj\Debug\net7.0\IdenAuthSec.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\obj\Debug\net7.0\IdenAuthSec.Core.AssemblyInfoInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\obj\Debug\net7.0\IdenAuthSec.Core.AssemblyInfo.cs
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\obj\Debug\net7.0\IdenAuthSec.Core.csproj.CoreCompileInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\obj\Debug\net7.0\IdenAuthSec.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\obj\Debug\net7.0\refint\IdenAuthSec.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\obj\Debug\net7.0\IdenAuthSec.Core.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\IdenAuthSecSolution\IdenAuthSec.Core\obj\Debug\net7.0\ref\IdenAuthSec.Core.dll

@@ -1,0 +1,12 @@
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\bin\Debug\net7.0\AppWeb.Core.deps.json
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\bin\Debug\net7.0\AppWeb.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\bin\Debug\net7.0\AppWeb.Core.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\obj\Debug\net7.0\AppWeb.Core.csproj.AssemblyReference.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\obj\Debug\net7.0\AppWeb.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\obj\Debug\net7.0\AppWeb.Core.AssemblyInfoInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\obj\Debug\net7.0\AppWeb.Core.AssemblyInfo.cs
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\obj\Debug\net7.0\AppWeb.Core.csproj.CoreCompileInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\obj\Debug\net7.0\AppWeb.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\obj\Debug\net7.0\refint\AppWeb.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\obj\Debug\net7.0\AppWeb.Core.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\AppWebSolution\AppWeb.Core\obj\Debug\net7.0\ref\AppWeb.Core.dll

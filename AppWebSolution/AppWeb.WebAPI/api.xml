@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppWeb.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:AppWeb.WebAPI.Controllers.v1.CitiesController.GetCities">
+            <summary>
+            To get list of cities (including city id and city name) from cities table
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AppWeb.WebAPI.Controllers.v2.CitiesController.GetCities">
+            <summary>
+            To get list of cities (including city id and city name) from cities table
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
