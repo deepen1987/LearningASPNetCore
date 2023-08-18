@@ -4,11 +4,18 @@ using AppWeb.Infrastructure.DatabaseContext;
 
 namespace AppWeb.WebAPI.Controllers.v2
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [ApiVersion("2.0")]
     public class CitiesController : CustomControllerBase
     {
         private readonly ApplicationDbContext _context;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="context"></param>
         public CitiesController(ApplicationDbContext context)
         {
             _context = context;
