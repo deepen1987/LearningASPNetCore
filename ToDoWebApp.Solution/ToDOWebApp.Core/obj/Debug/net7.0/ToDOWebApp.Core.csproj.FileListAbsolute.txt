@@ -1,0 +1,12 @@
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\bin\Debug\net7.0\ToDOWebApp.Core.deps.json
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\bin\Debug\net7.0\ToDOWebApp.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\bin\Debug\net7.0\ToDOWebApp.Core.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\obj\Debug\net7.0\ToDOWebApp.Core.csproj.AssemblyReference.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\obj\Debug\net7.0\ToDOWebApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\obj\Debug\net7.0\ToDOWebApp.Core.AssemblyInfoInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\obj\Debug\net7.0\ToDOWebApp.Core.AssemblyInfo.cs
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\obj\Debug\net7.0\ToDOWebApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\obj\Debug\net7.0\ToDOWebApp.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\obj\Debug\net7.0\refint\ToDOWebApp.Core.dll
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\obj\Debug\net7.0\ToDOWebApp.Core.pdb
+C:\Users\deepe\OneDrive\Documents\GitHub\LearningASPNetCore\ToDoWebApp.Solution\ToDOWebApp.Core\obj\Debug\net7.0\ref\ToDOWebApp.Core.dll

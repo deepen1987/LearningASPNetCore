@@ -1,7 +1,6 @@
 ﻿using AppWeb.Core.Domain.Entities.Identity;
 using AppWeb.Core.DTO;
 using AppWeb.Core.ServiceContracts;
-using AppWeb.Core.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
