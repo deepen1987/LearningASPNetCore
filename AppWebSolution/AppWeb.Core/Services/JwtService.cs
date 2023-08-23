@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace AppWeb.Core.Services
@@ -48,8 +49,23 @@ namespace AppWeb.Core.Services
                 Token = token,
                 Email = user.Email,
                 PersonName = user.PersonName,
+                RefreshToken = GenerateRefreshToken(),
+                RefreshTokenExpirationDateTime = DateTime
+                .Now
+                .AddMinutes(
+                    Convert.ToDouble(_config["RefreshToekn:EXPIRATION_MINUTES"])
+                    ),
                 ExpirationTime = expiration
             };
+        }
+
+        private string GenerateRefreshToken()
+        {
+            byte[] bytes = new byte[64];
+            var randomNumberGenerator = RandomNumberGenerator.Create();
+            randomNumberGenerator.GetBytes(bytes);
+
+            return Convert.ToBase64String(bytes);
         }
     }
 }

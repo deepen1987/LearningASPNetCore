@@ -8,6 +8,7 @@ builder.Services.ConfigureService(builder.Configuration);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseHsts();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseSwagger();

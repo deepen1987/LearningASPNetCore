@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ToDOWebApp.Core.Domain.Entities.Identity;
@@ -8,7 +7,11 @@ using ToDOWebApp.Core.ServiceContracts;
 
 namespace ToDoWebApp.WebApi.Controllers
 {
-    [AllowAnonymous]
+    /// <summary>
+    /// The [AllowAnonymous] is added so the controller can be accessed without authenticaation and authorization 
+    /// as we need it so the controller can be accessed by frontend without issue.
+    /// </summary>
+    [AllowAnonymous] 
     public class AccountController : CustomControllerBase
     {
         private readonly UserManager<ApplicationUser> _userManager;
