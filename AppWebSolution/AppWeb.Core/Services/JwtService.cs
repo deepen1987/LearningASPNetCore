@@ -25,7 +25,8 @@ namespace AppWeb.Core.Services
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()), // Subject User
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), // New Guid everytime token is generated
-                new Claim(JwtRegisteredClaimNames.Iat, DateTime.Now.ToString()), // Issued at (date and time of token generation)
+                new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()), // Issued at (date and time of token generation)
+                new Claim(ClaimTypes.NameIdentifier, user.Email),
                 new Claim(ClaimTypes.NameIdentifier, user.PersonName) //Name of the user
             };
 
@@ -57,6 +58,38 @@ namespace AppWeb.Core.Services
                     ),
                 ExpirationTime = expiration
             };
+        }
+
+        public ClaimsPrincipal? GetPrincipalFromJwtToken(string? token)
+        {
+            //1. We add all the validation parameters we need to validate if a token is valid.
+            var tokenValidationParameters = new TokenValidationParameters() 
+            {
+                ValidateAudience = true,
+                ValidAudience= _config["Jwt:Audience"],
+                ValidateIssuer = true,
+                ValidIssuer = _config["JWT:Issuer"],
+                ValidateLifetime = false,
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["JWT:Key"]))
+            };
+
+            //2. We use below jwtTokenHandler to fetch user details from the token 
+            JwtSecurityTokenHandler jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
+
+            //3. we use ValidateToken method which alidates a toekn based on token validate parameters
+            // and spits out a security Token if its valid or not.
+            ClaimsPrincipal principal = jwtSecurityTokenHandler.ValidateToken(token, tokenValidationParameters, out SecurityToken securityToken);
+        
+            //4. securityToken is not of JwtSecurityToken class its invalid 
+            if(securityToken is not JwtSecurityToken jwtSecurityToken || 
+                !jwtSecurityToken.Header.Alg
+                .Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
+            {
+                throw new SecurityTokenException("Invalid Token");
+            }
+
+            return principal;
         }
 
         private string GenerateRefreshToken()
