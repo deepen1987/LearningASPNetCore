@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{8059C244-43BF-4A65-87E8-69ADBAA846DF}|ToDoWebApi">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoWebApp/StartupExtnsions/ConfigureServiceExtension.cs">
+    <Files>
+      <File FileName="ToDoWebApp/appsettings.json" Line="20" Column="30" />
+      <File FileName="ToDoWebApp/Program.cs" Line="1" Column="1" />
+      <File FileName="ToDOWebApp.Core/DTO/AuthenticationResponse.cs" Line="10" Column="63" />
+      <File FileName="ToDOWebApp.Core/DTO/RegisterDTO.cs" Line="1" Column="1" />
+      <File FileName="ToDOWebApp.Core/ServiceContracts/IJwtService.cs" Line="10" Column="64" />
+      <File FileName="ToDOWebApp.Core/Services/JwtService.cs" Line="36" Column="43" />
+      <File FileName="ToDoWebApp/StartupExtnsions/ConfigureServiceExtension.cs" Line="61" Column="48" />
+      <File FileName="ToDoWebApp/Controllers/AccountController.cs" Line="131" Column="30" />
+      <File FileName="ToDOWebApp.Core/Domain/Entities/Identity/ApplicationUser.cs" Line="9" Column="63" />
+      <File FileName="ToDOWebApp.Core/DTO/TokenModel.cs" Line="7" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDoWebApp.Solution">
+            <Node name="src" expanded="True">
+              <Node name="ToDoWebApp.WebApi">
+                <Node name="StartupExtnsions">
+                  <Node name="ConfigureServiceExtension.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/deependrashekhawat/Documents/GitHub/LearningASPNetCore/ToDoWebApp.Solution/ToDoWebApp/Controllers/AccountController.cs" relfile="ToDoWebApp/Controllers/AccountController.cs" line="114" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.ToDoWebApp.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

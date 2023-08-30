@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using ToDOWebApp.Core.Domain.Entities.Identity;
 using ToDOWebApp.Core.DTO;
 using ToDOWebApp.Core.ServiceContracts;
@@ -52,9 +54,14 @@ namespace ToDoWebApp.WebApi.Controllers
             if(result.Succeeded)
             {
                 await _signInManager.SignInAsync(user, isPersistent: false);
-                var response = _jwtService.CreateJwtToken(user);
+                var authenticationResponse = _jwtService.CreateJwtToken(user);
+                user.RefreshToken = authenticationResponse.RefreshToken;
+                user.RefreshTokenExpirationTime = authenticationResponse.RefreshTokenExpirationTime;
 
-                return Ok(response);
+                await _userManager.UpdateAsync(user);
+                
+
+                return Ok(authenticationResponse);
             }
 
             string errorMessage = string.Join(" | ", result.Errors.Select(e => e.Description));
@@ -84,6 +91,10 @@ namespace ToDoWebApp.WebApi.Controllers
                 }
 
                 var response = _jwtService.CreateJwtToken(user);
+                user.RefreshToken = response.RefreshToken;
+                user.RefreshTokenExpirationTime = response.RefreshTokenExpirationTime;
+
+                await _userManager.UpdateAsync(user);
                 return Ok(response);
             }
 
@@ -96,6 +107,48 @@ namespace ToDoWebApp.WebApi.Controllers
             await _signInManager.SignOutAsync();
 
             return NoContent();
+        }
+
+        [HttpPost("generate-new-jwt-token")]
+        public async Task<IActionResult> GenerateNewRefreshToken(TokenModel tokenModel)
+        {
+            if(ModelState.IsValid == false)
+            {
+                string? errorMessages = string.Join(" | ", ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage));
+
+                return Problem(errorMessages);
+            }
+
+
+            ClaimsPrincipal? claimsPrincipal = _jwtService.GetPrincipalFromJwtToken(tokenModel.Token);
+            if(claimsPrincipal == null)
+            {
+                return BadRequest("Invalid Refresh Token");
+            }
+
+            string? email = claimsPrincipal.FindFirstValue(ClaimTypes.Email);
+
+            if(email == null)
+            {
+                return BadRequest("Invalid Refresh Token");
+            }
+
+            ApplicationUser? user = await _userManager.FindByEmailAsync(email);
+
+            if(user == null ||
+                user.RefreshToken != tokenModel.RefreshToken ||
+                user.RefreshTokenExpirationTime <= DateTime.Now)
+            {
+                return BadRequest("Invalid Refresh Token");
+            }
+
+            AuthenticationResponse authenticationResponse = _jwtService.CreateJwtToken(user);
+            user.RefreshToken = authenticationResponse.RefreshToken;
+            user.RefreshTokenExpirationTime = authenticationResponse.RefreshTokenExpirationTime;
+
+            await _userManager.UpdateAsync(user);
+
+            return Ok(authenticationResponse);
         }
 
         [HttpGet]

@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{EA6890AD-C042-4FDD-BEBF-E81591123D12}|https">
+  <MonoDevelop.Ide.ItemProperties.src.AppWeb.WebAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppWeb.WebAPI/appsettings.json">
+    <Files>
+      <File FileName="AppWeb.Core/DTO/TokenModel.cs" Line="5" Column="1" />
+      <File FileName="AppWeb.Core/DTO/AuthenticationResponse.cs" Line="7" Column="59" />
+      <File FileName="AppWeb.Core/Services/JwtService.cs" Line="33" Column="107" />
+      <File FileName="AppWeb.Core/ServiceContracts/IJwtService.cs" Line="1" Column="1" />
+      <File FileName="AppWeb.WebAPI/Program.cs" Line="1" Column="1" />
+      <File FileName="AppWeb.WebAPI/StartupExtensions/ConfigureServiceExtension.cs" Line="1" Column="1" />
+      <File FileName="AppWeb.WebAPI/Controllers/v1/AccountController.cs" Line="126" Column="10" />
+      <File FileName="AppWeb.WebAPI/appsettings.json" Line="1" Column="1" />
+      <File FileName="AppWeb.Core/DTO/RegisterDTO.cs" Line="1" Column="1" />
+      <File FileName="AppWeb.Core/Domain/Entities/Identity/ApplicationUser.cs" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AppWebSolution">
+            <Node name="src" expanded="True">
+              <Node name="AppWeb.Core" expanded="True">
+                <Node name="Domain" expanded="True">
+                  <Node name="Entities" expanded="True">
+                    <Node name="Identity" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="DTO" expanded="True" />
+                <Node name="ServiceContracts" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="AppWeb.Infrastructure" expanded="True" />
+              <Node name="AppWeb.WebAPI">
+                <Node name="StartupExtensions" expanded="True" />
+                <Node name="appsettings.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

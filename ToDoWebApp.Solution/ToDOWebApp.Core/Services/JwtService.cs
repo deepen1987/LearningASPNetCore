@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using ToDOWebApp.Core.Domain.Entities.Identity;
@@ -31,6 +32,8 @@ namespace ToDOWebApp.Core.Services
                 new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()), // Subject User
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), // New Guid everytime token is generated
                 new Claim(JwtRegisteredClaimNames.Iat, DateTime.Now.ToString()), // Issued at (date and time of token generation)
+                new Claim(ClaimTypes.NameIdentifier, user.Email),
+                new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.NameIdentifier, user.PersonName) //Name of the user
             };
 
@@ -57,9 +60,45 @@ namespace ToDOWebApp.Core.Services
                 Email = user.Email,
                 UserName = user.PersonName,
                 ExpirationTime = expiration,
+                RefreshToken = GenerateRefreshToken(),
+                RefreshTokenExpirationTime = DateTime.Now.AddMinutes(Convert.ToDouble(_config["RefreshToken:Expiration_Minutes"]))
             };
 
             return respose;
+        }
+
+        public ClaimsPrincipal? GetPrincipalFromJwtToken(string? token)
+        {
+            var tokenValidationParameters = new TokenValidationParameters()
+            {
+                ValidateAudience = true,
+                ValidAudience = _config["JWT:Audience"],
+                ValidateIssuer = true,
+                ValidIssuer = _config["JWT:Issuer"],
+                ValidateLifetime = false,
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["JWT:SecretKey"]))
+            };
+
+            JwtSecurityTokenHandler jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
+            ClaimsPrincipal principal = jwtSecurityTokenHandler.ValidateToken(token, tokenValidationParameters, out SecurityToken securityToken);
+
+            if(securityToken is not JwtSecurityToken jwtSecurityToken||
+                !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
+            {
+                throw new SecurityTokenException("Invalid Token");
+            }
+
+            return principal;
+        }
+
+        private string GenerateRefreshToken()
+        {
+            byte[] bytes = new byte[64];
+            var randomNumberGenerator = RandomNumberGenerator.Create();
+            randomNumberGenerator.GetBytes(bytes);
+
+            return Convert.ToBase64String(bytes);
         }
     }
 }
